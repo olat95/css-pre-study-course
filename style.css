@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    background-color: #fffff2;
+    margin: 0;
+}
+.main-header{
+    font-family: 'Chelsea Market', cursive;
+    background-color: #e4572e;
+    margin-bottom: auto;
+    padding: 15px
+    
+}
+
+.first_section{
+    font-family: 'Gamja Flower', cursive;
+    border:4px solid #050401;
+    margin : 5px 300px;  
+    box-shadow: 3px 3px 0 0 #e4572e;
+}
+
+.second_section {
+    font-family: 'Gamja Flower', cursive;
+    border:4px solid #050401;
+    margin: 5px 300px; 
+    box-shadow: 3px 3px 0 0 #e4572e;
+}
+
+.foot{
+    font-family: 'Gamja Flower', cursive;
+} 
+
+.para1, .para2, .para3{
+   
+    box-shadow: 3px 3px 0 0 #e4572e;
+    display: inline-block;
+}
+
+.foot_form{
+    display: inline-block;
+}
