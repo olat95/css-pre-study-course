@@ -1,5 +1,6 @@
 body{
     text-align: center;
+    font-size: 25px;
     background-color: #fffff2;
     margin: 0;
 }
@@ -11,17 +12,44 @@ body{
     
 }
 
+.img_1{
+    float: right;
+    padding-right: 15px;
+    width:150px;
+    height:150px;
+    position: relative;
+}
+
+.img_2{
+    float: right;
+    padding-right: 15px;
+    width:350px;
+    height:250px;
+    position: relative;
+}
+
+#title_1{
+    text-align: justify;
+}
+
+#title_2{
+    text-align: left;
+}
+
+
 .first_section{
     font-family: 'Gamja Flower', cursive;
     border:4px solid #050401;
-    margin : 5px 300px;  
+    margin : 5px 300px;
+    padding-bottom: 70px;  
     box-shadow: 3px 3px 0 0 #e4572e;
 }
 
 .second_section {
     font-family: 'Gamja Flower', cursive;
     border:4px solid #050401;
-    margin: 5px 300px; 
+    margin: 5px 300px;
+    padding-bottom: 85px; 
     box-shadow: 3px 3px 0 0 #e4572e;
 }
 
