@@ -7,9 +7,20 @@ body{
 .main-header{
     font-family: 'Chelsea Market', cursive;
     background-color: #e4572e;
-    margin-bottom: auto;
-    padding: 15px
+    margin-bottom: 10px;
+    padding: 15px;
     
+}
+
+.butt{
+    font-family: 'Gamja Flower', cursive;
+    font-size: 25px;
+    background-color: black;
+    border:4px solid #050401;
+    color: ivory;
+    padding: 15px;
+    width: 700px;
+    box-shadow: 3px 3px 0 0 #e4572e;
 }
 
 .img_1{
@@ -36,8 +47,7 @@ body{
     text-align: left;
 }
 
-
-.first_section{
+.first_section, #notes{
     font-family: 'Gamja Flower', cursive;
     border:4px solid #050401;
     margin : 5px 300px;
@@ -57,12 +67,97 @@ body{
     font-family: 'Gamja Flower', cursive;
 } 
 
-.para1, .para2, .para3{
-   
+.para1, .para2, .para3{   
     box-shadow: 3px 3px 0 0 #e4572e;
     display: inline-block;
 }
 
 .foot_form{
     display: inline-block;
+}
+
+#demo{
+    align-items: center;
+    font-family: 'Gamja Flower', cursive;
+    margin: auto;
+    width: 40%;
+}
+
+input[type=text], input[type=email] {
+    font-family: 'Gamja Flower', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+    padding: 12px 20px;
+    margin: 0;
+    display: inline-block;
+    box-shadow: 3px 3px 0 0 #e4572e;  
+}
+  
+  input[type=submit]{
+    font-family: 'Gamja Flower', cursive;
+    font-weight: bold;
+    box-shadow: 3px 3px 0 0 #e4572e;
+    height: 35px;
+    width: 80px;
+}
+
+.modal{
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.2);
+}
+
+.modal-content{
+    width:50%;
+    height:50%;
+    background-color: blue;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.close{
+    font-size: 40px;
+    font-weight: bold;
+    color:#aaa;
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    cursor: pointer; 
+}
+
+.input-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container{
+    padding: 50px 30px;    
+}
+
+.input-title, .input-journal{
+    padding: 5px 10px;
+    border-radius: 20px;
+    width: 100%;    
+}
+
+.input-journal{
+    margin-top: 10px;
+}
+
+.form-button{
+    padding: 5px 10px;
+    width: 50%;
+    margin-top: 5px;
+    border-radius: 10px;
+    cursor: pointer;
 }

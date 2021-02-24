@@ -1,9 +1,10 @@
-<!DOCTYPE>
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Sanni's Journal</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -16,7 +17,13 @@
         <h1>Sanni's Journal</h1>
         <h2>So fresh and so clean</h2>
     </header>
+    <button type="button" class="butt" id="addnote">Add a new note</button>
+    <div class="note-count">
+        
+    </div>
+    
     <main class="real_body">
+        <div id="modalmain"></div>
         <article class="first_section">
             <h2 id ="title_1">13/05/23: Spatulas</h2>
             <p><img src="images/spatula.gif" alt="spatulas" class="img_1"></p>
@@ -51,6 +58,25 @@
         <p>&copy; 2023 Sanni. No Rights Reserved.</p>
     </footer>
 
+<!-- the javascript prompt/ message -->
+    <div class="modal">
+        <div class = "modal-content">
+            <span class = "close">&times;</span>
+            <div class="form-container">
+                <form class = "input-body" id="modal-form">
+                    <input class= "input-title" type="text" placeholder ="Your title" id="modaltitle">
+                    <textarea class="input-journal" id="modalbody" cols="30" rows="10" placeholder="Type here....."></textarea>
+                    <button type="submit" class="form-button"> Add </button>
+                </form>
+            </div>
+        </div>        
+    </div>  
+
+    
+
+<script src="journal.js"></script>
 </body>
 
+</html>
+</body>
 </html>
